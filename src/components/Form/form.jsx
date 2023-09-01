@@ -15,16 +15,16 @@ function Form( props ) {
       }}
     >
           <Typography component="h2" variant="h4">
-            Formulário de Login
+            {props.title}
           </Typography>
           <Box component="form" sx={{ mt: 1 }} >
-            <TextField fullWidth margin='normal' label="Email" name="email" variant="filled"/>
-            <TextField fullWidth margin='normal' label="Senha" name="password" variant="filled"/>
+            <TextField fullWidth margin='normal' label="Email" name="email" variant="filled" required/>
+            <TextField fullWidth margin='normal' label="Senha" name="password" variant="filled" required/>
             <FormControlLabel 
             control={<Checkbox value="remember" color="primary" />}
             label="Lembrar-me"
             />
-            <Button fullWidth type="submit" variant="contained" sx={{ mt: 2, mb: 1 }}>Login</Button>
+            <Button fullWidth type="submit" variant="contained" sx={{ mt: 2, mb: 2 }}>Login</Button>
             <Grid container>
               <Grid item xs>
                 <Link href="#">Esqueci minha Senha</Link>
