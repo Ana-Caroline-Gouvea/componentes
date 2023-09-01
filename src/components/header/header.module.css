@@ -1,0 +1,26 @@
+.header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+.logo{
+    width: 20%;
+}
+.central{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.busca{
+    width: 100%;
+    height: 50px;
+}
+.menu{
+    width: 100%;
+    height: 50px;
+}
+.busca, .menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

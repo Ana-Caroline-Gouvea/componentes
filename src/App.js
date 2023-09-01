@@ -1,10 +1,10 @@
-import './App.css';
+import "./app.css"
+import Form from "./components/Form/form";
 
-function App( props ) {
+function App() {
   return (
-    <>
-    
-    </>
+    <Form />
+
   );
 }
 
